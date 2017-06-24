@@ -1,0 +1,19 @@
+package com.bridgeLabz.Authentication.service;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Validation {
+
+	@Test
+	public void validateToken() {
+		
+		UserService.addUser();
+		
+		assertEquals(true, UserService.login("ram", "123"));
+		
+		assertEquals(true, TokenService.validateAccessToken("812047b6e6eb44a7bc98821d2e45cc74"));
+	}
+
+}

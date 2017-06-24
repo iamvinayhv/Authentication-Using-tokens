@@ -1,0 +1,20 @@
+package com.bridgeLabz.Authentication.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.bridgeLabz.Authentication.model.UserData;
+
+public class UserService {
+
+	public static List<UserData> userDatas = null;
+	
+	public static void loadAllUser(String userName, String password){
+		
+		userDatas = new ArrayList<UserData>();
+		
+		userDatas.add(new UserData("Suresh", "suresh123"));
+		userDatas.add(new UserData("Ramesh", "ramesh123"));
+		
+	}
+}

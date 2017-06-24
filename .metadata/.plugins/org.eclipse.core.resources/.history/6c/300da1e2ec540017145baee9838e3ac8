@@ -1,0 +1,12 @@
+package com.bridgeLabz.Authentication.service;
+
+import org.junit.Test
+
+public class Test {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

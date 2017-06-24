@@ -1,0 +1,28 @@
+package com.bridgeLabz.Authentication.service;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.bridgeLabz.Authentication.model.UserData;
+
+public class TestUser {
+
+	@Test
+	public void TestUser1(){
+		UserService.addUser();
+		
+		assertEquals(true, UserService.login("ram", "123"));
+		
+	}
+	
+	@Test
+	public void TestUser2(){
+		UserService.addUser();
+		
+		assertEquals(false, UserService.login("alkesh", "kalpesh"));
+	}
+
+	
+
+}

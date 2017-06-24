@@ -1,0 +1,16 @@
+package com.bridgeLabz.Authentication.service;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+
+import com.bridgeLabz.Authentication.model.UserData;
+
+
+
+public class UserService {
+	
+
+	
+}

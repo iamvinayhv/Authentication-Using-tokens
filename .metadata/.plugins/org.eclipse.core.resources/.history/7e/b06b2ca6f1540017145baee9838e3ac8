@@ -1,0 +1,12 @@
+package com.bridgeLabz.Authentication.service;
+
+public class Test {
+
+	@org.junit.Test
+	public void getUser(){
+		
+		UserService.addUser();
+		
+		asser
+	}
+}
